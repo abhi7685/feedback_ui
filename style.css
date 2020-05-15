@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    display: flex; 
+    height: 100vh;
+    justify-content: center;
+
+}
+.container{
+    align-self: center;
+    width: 400px;
+    height: 300px;
+    border: 2px solid red;
+    overflow: hidden;
+}
+.header{
+    text-align: center;
+}
+.feedback{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    justify-content: center;
+    padding: 10px;
+}
+.feedback img{
+    width: 50px;
+    margin: 30px;
+    margin-bottom: 5px;
+}
+#btn{
+    margin-top: 20px;
+    border: 0;
+    background-color: orangered;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+.i :hover{
+    cursor: pointer;
+}
+
+#select{
+   font-weight: bold;
+}
+#unselect{
+    opacity: 0.7;
+}
+
+#aftersubmit{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
